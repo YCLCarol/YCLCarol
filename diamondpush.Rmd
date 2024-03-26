@@ -10,7 +10,7 @@ output: html_document
 library(tidyverse)
 head(diamonds)
 
-# Use dplyr commands to create a diamond data table
+# Use dplyr commands to create a diamond data 
 # that shows columns price x,y, and z. Also price values should be greater than 17000.
 library(dplyr)
 diamonds%>%
@@ -18,5 +18,5 @@ diamonds%>%
   filter(price>17000)
 ```
 
-
+add something here
 
